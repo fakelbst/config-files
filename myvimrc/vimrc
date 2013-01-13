@@ -38,4 +38,5 @@ set fileencodings=utf-8,gbk
 set ts=4
 set expandtab
 set autoindent
+let Tlist_Use_Right_Window=1
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
