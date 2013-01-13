@@ -8,6 +8,8 @@ endif
 set nocompatible               " be iMproved
 filetype off                   " required!
 
+let mapleader=","
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -18,8 +20,10 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'scrooloose/nerdtree.git'
+Bundle 'nathanaelkane/vim-indent-guides.git'
 " vim-scripts repos
 Bundle 'taglist.vim'
+Bundle 'AutoComplPop'
 "sudo apt-get install exuberant-ctags
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
@@ -39,4 +43,5 @@ set ts=4
 set expandtab
 set autoindent
 let Tlist_Use_Right_Window=1
+let g:indent_guides_guide_size=1
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
