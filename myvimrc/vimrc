@@ -18,6 +18,9 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'scrooloose/nerdtree.git'
+" vim-scripts repos
+Bundle 'taglist.vim'
+"sudo apt-get install exuberant-ctags
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 
