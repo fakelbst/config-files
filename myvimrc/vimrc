@@ -5,6 +5,10 @@ if has("syntax")
   syntax on
 endif
 
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
 set nocompatible               " be iMproved
 filetype off                   " required!
 
@@ -22,7 +26,7 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 " vim-scripts repos
-Bundle 'taglist.vim'
+Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
 "sudo apt-get install exuberant-ctags
 " non github repos
@@ -45,3 +49,4 @@ set autoindent
 let Tlist_Use_Right_Window=1
 let g:indent_guides_guide_size=1
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
+colo distinguished
