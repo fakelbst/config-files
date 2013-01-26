@@ -1,6 +1,8 @@
 "git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 runtime! debian.vim
 
+let g:solarized_termcolors=256
+
 if has("syntax")
   syntax on
 endif
@@ -11,8 +13,6 @@ endif
 
 set nocompatible               " be iMproved
 filetype off                   " required!
-
-let mapleader=","
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -49,4 +49,7 @@ set autoindent
 let Tlist_Use_Right_Window=1
 let g:indent_guides_guide_size=1
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
-colo distinguished
+"colo distinguished
+syntax enable
+set background=dark
+colorscheme solarized
