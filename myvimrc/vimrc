@@ -1,6 +1,10 @@
 "git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 runtime! debian.vim
 
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=utf-8,gbk
+
 let g:solarized_termcolors=256
 
 if has("syntax")
@@ -25,10 +29,11 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
+Bundle 'Lokaltog/vim-powerline.git'
+"Bundle 'wincent/Command-T.git'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
-"sudo apt-get install exuberant-ctags
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 
@@ -39,9 +44,12 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-set encoding=utf-8
-set termencoding=utf-8
-set fileencodings=utf-8,gbk
+"powerline{
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+let g:Powerline_symbols = 'fancy'
+"}
+"let g:Powerline_symbols = 'fancy'
 
 set ts=4
 set expandtab
