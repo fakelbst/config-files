@@ -5,8 +5,6 @@ set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,gbk
 
-let g:solarized_termcolors=256
-
 if has("syntax")
   syntax on
 endif
@@ -61,3 +59,5 @@ let g:indent_guides_guide_size=1
 syntax enable
 set background=dark
 colorscheme solarized
+let g:solarized_termcolors=256
+
