@@ -47,8 +47,8 @@ set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
 let g:Powerline_symbols = 'fancy'
 "}
-"let g:Powerline_symbols = 'fancy'
 
+set hlsearch
 set ts=4
 set expandtab
 set autoindent
@@ -58,6 +58,6 @@ let g:indent_guides_guide_size=1
 "colo distinguished
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme default
 let g:solarized_termcolors=256
 
