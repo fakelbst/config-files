@@ -32,6 +32,7 @@ Bundle 'Lokaltog/vim-powerline.git'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
+Bundle 'airblade/vim-gitgutter'
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 
@@ -60,4 +61,3 @@ syntax enable
 set background=dark
 colorscheme default
 let g:solarized_termcolors=256
-
