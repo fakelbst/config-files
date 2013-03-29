@@ -61,3 +61,5 @@ syntax enable
 set background=dark
 colorscheme default
 let g:solarized_termcolors=256
+
+set pastetoggle=<F9>
