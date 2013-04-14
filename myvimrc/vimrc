@@ -28,6 +28,7 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Lokaltog/vim-powerline.git'
+Bundle 'godlygeek/tabular'
 "Bundle 'wincent/Command-T.git'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
