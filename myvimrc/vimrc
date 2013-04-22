@@ -54,8 +54,8 @@ set sw=4
 set sts=4
 
 set hlsearch
-"set expandtab
-"set autoindent
+set expandtab
+set autoindent
 let Tlist_Use_Right_Window=1
 let g:indent_guides_guide_size=1
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
