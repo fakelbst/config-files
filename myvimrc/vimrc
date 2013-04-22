@@ -28,7 +28,6 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Lokaltog/vim-powerline.git'
-Bundle 'godlygeek/tabular'
 "Bundle 'wincent/Command-T.git'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
@@ -50,10 +49,13 @@ set nocompatible
 let g:Powerline_symbols = 'fancy'
 "}
 
-set hlsearch
 set ts=4
-set expandtab
-set autoindent
+set sw=4
+set sts=4
+
+set hlsearch
+"set expandtab
+"set autoindent
 let Tlist_Use_Right_Window=1
 let g:indent_guides_guide_size=1
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
