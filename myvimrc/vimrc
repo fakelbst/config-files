@@ -4,6 +4,7 @@ runtime! debian.vim
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,gbk
+set nu
 
 if has("syntax")
   syntax on
@@ -28,7 +29,6 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'nathanaelkane/vim-indent-guides.git'
 Bundle 'Lokaltog/vim-powerline.git'
-Bundle 'FredKSchott/CoVim.git'
 "Bundle 'wincent/Command-T.git'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
@@ -67,8 +67,3 @@ colorscheme default
 let g:solarized_termcolors=256
 
 set pastetoggle=<F9>
-
-nmap <ESC>[1;5C <C-w>l
-nmap <ESC>[1;5D <C-w>h
-nmap <ESC>[1;5A <C-w>k
-nmap <ESC>[1;5B <C-w>j
