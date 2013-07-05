@@ -5,6 +5,7 @@ set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,gbk
 set nu
+set incsearch
 
 if has("syntax")
   syntax on
