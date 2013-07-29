@@ -33,7 +33,7 @@ Bundle 'Lokaltog/vim-powerline.git'
 Bundle 'mattn/zencoding-vim.git'
 Bundle 'kchmck/vim-coffee-script.git'
 Bundle 'terryma/vim-multiple-cursors'
-"Bundle 'wincent/Command-T.git'
+Bundle 'msanders/snipmate.vim'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
