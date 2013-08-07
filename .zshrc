@@ -49,6 +49,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/yjmao/Downloads/githubs/arcanist/bin
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
-function jo { xdg-open $(autojump $@); }
+alias jo='xdg-open'
 
 export EDITOR=/usr/bin/vim
