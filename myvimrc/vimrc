@@ -34,6 +34,8 @@ Bundle 'mattn/zencoding-vim.git'
 Bundle 'kchmck/vim-coffee-script.git'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'msanders/snipmate.vim'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-surround'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
