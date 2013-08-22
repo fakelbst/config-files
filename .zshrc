@@ -12,6 +12,7 @@ ZSH_THEME="tonotdo"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v='source ~/workvenv/bin/activate'
+alias p3='source ~/py3env/bin/activate'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
