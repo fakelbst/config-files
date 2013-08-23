@@ -11,6 +11,7 @@ ZSH_THEME="tonotdo"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi='vim'
 alias v='source ~/workvenv/bin/activate'
 alias p3='source ~/py3env/bin/activate'
 
