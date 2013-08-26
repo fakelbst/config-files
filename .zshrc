@@ -14,6 +14,7 @@ ZSH_THEME="tonotdo"
 alias vi='vim'
 alias v='source ~/workvenv/bin/activate'
 alias p3='source ~/py3env/bin/activate'
+alias X='startxfce4'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -49,7 +50,7 @@ plugins=(git autojump)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/yjmao/Downloads/githubs/arcanist/bin
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/yjmao/Downloads/githubs/arcanist/bin:/home/mao/.gem/ruby/2.0.0/bin
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 alias jo='xdg-open'
 
