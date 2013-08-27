@@ -15,6 +15,7 @@ alias vi='vim'
 alias v='source ~/workvenv/bin/activate'
 alias p3='source ~/py3env/bin/activate'
 alias X='startxfce4'
+alias go='python ~/Downloads/goagent/local/proxy.py'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
