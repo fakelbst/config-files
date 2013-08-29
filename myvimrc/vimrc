@@ -37,6 +37,7 @@ Bundle 'terryma/vim-multiple-cursors'
 Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-surround'
+Bundle 'groenewege/vim-less'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
