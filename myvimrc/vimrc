@@ -52,6 +52,12 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+
 "powerline{
 set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
