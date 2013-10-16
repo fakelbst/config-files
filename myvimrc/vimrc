@@ -82,3 +82,4 @@ colorscheme default
 let g:solarized_termcolors=256
 
 set pastetoggle=<F9>
+filetype indent on
