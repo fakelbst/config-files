@@ -82,4 +82,6 @@ colorscheme default
 let g:solarized_termcolors=256
 
 set pastetoggle=<F9>
-filetype indent on
+autocmd FileType coffee set ts=2
+autocmd FileType coffee set sw=2
+autocmd FileType coffee set sts=2
