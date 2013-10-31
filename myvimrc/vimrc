@@ -38,6 +38,7 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-surround'
 Bundle 'groenewege/vim-less'
+Bundle 'digitaltoad/vim-jade'
 " vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
