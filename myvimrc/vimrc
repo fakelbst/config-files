@@ -84,6 +84,6 @@ let g:solarized_termcolors=256
 
 set pastetoggle=<F9>
 
-autocmd BufRead,BufNewFile *.coffee set ts=2
-autocmd BufRead,BufNewFile *.coffee set sw=2
-autocmd BufRead,BufNewFile *.coffee set sts=2
+autocmd BufRead,BufNewFile *.coffee,*.sass,*.jade set ts=2
+autocmd BufRead,BufNewFile *.coffee,*.sass,*.jade set sw=2
+autocmd BufRead,BufNewFile *.coffee,*.sass,*.jade set sts=2
