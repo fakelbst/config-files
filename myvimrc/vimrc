@@ -87,3 +87,5 @@ set pastetoggle=<F9>
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.jade set ts=2
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.jade set sw=2
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.jade set sts=2
+
+let NERDTreeIgnore = ['\.pyc$']
