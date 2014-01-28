@@ -54,5 +54,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/yjmao/Downloads/githubs/arcanist/bin:/home/mao/.gem/ruby/2.0.0/bin
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 alias jo='open || xdg-open'
+alias tarz='tar zxvf'
 
 export EDITOR=/usr/bin/vim
