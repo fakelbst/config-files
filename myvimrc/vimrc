@@ -89,3 +89,4 @@ autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set sw=2
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set sts=2
 
 let NERDTreeIgnore = ['\.pyc$']
+match ErrorMsg '\s\+$'
