@@ -1,6 +1,1 @@
-rc
-==
-
-vimrc & vim configure file
-zshrc
-
+configure files
