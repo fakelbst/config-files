@@ -1,0 +1,17 @@
+[user]
+	name = mao
+	email = myj226@gmail.com
+	username = mao
+[color]
+	ui = true
+	all = ture
+[alias]
+	st = status
+	ci = checkout
+	br = branch
+	co = checkout
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = current
