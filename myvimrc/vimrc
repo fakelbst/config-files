@@ -43,6 +43,8 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'junegunn/vim-easy-align'
+Bundle 'kien/ctrlp.vim'
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 
