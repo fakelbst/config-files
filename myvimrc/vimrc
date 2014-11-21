@@ -12,9 +12,7 @@ if has("syntax")
   syntax on
 endif
 
-if $COLORTERM == 'gnome-terminal'
-    set t_Co=256
-endif
+set t_Co=256
 
 set nocompatible               " be iMproved
 filetype off                   " required!
