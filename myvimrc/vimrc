@@ -45,6 +45,7 @@ Bundle 'junegunn/vim-easy-align'
 Bundle 'kien/ctrlp.vim'
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
+Bundle "fatih/vim-go"
 
 filetype plugin indent on     " required!
 
