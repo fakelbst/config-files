@@ -84,6 +84,7 @@ colorscheme default
 let g:solarized_termcolors=256
 
 set pastetoggle=<F9>
+au VimEnter * NERDTree
 
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set ts=2
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set sw=2
