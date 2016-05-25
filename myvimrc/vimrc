@@ -37,14 +37,12 @@ Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-surround'
 Bundle 'groenewege/vim-less'
 Bundle 'digitaltoad/vim-jade'
-" vim-scripts repos
 Bundle 'majutsushi/tagbar.git'
 Bundle 'AutoComplPop'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'junegunn/vim-easy-align'
 Bundle 'kien/ctrlp.vim'
-" non github repos
-"Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'JulesWang/css.vim'
 Bundle "fatih/vim-go"
 
 filetype plugin indent on     " required!
