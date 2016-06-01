@@ -43,6 +43,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'junegunn/vim-easy-align'
 Bundle 'kien/ctrlp.vim'
 Bundle 'JulesWang/css.vim'
+Bundle 'Xuyuanp/nerdtree-git-plugin'
 Bundle "fatih/vim-go"
 
 filetype plugin indent on     " required!
