@@ -44,7 +44,8 @@ Bundle 'junegunn/vim-easy-align'
 Bundle 'kien/ctrlp.vim'
 Bundle 'JulesWang/css.vim'
 Bundle 'Xuyuanp/nerdtree-git-plugin'
-Bundle "fatih/vim-go"
+Bundle 'fatih/vim-go'
+Bundle 'lambdatoast/elm.vim'
 
 filetype plugin indent on     " required!
 
