@@ -90,6 +90,7 @@ au VimEnter * NERDTree
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set ts=2
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set sw=2
 autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade set sts=2
+au BufReadPost *.wxml set syntax=html
 
 let NERDTreeIgnore = ['\.pyc$']
 match ErrorMsg '\s\+$'
