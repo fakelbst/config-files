@@ -1,6 +1,4 @@
 "git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-runtime! debian.vim
-
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,gbk
