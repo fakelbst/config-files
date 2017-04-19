@@ -45,8 +45,10 @@ Bundle 'Xuyuanp/nerdtree-git-plugin'
 Bundle 'fatih/vim-go'
 Bundle 'lambdatoast/elm.vim'
 Bundle 'othree/html5.vim'
+Bundle 'AutoComplPop'
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
+Bundle 'pasva/vim-vue'
 
 filetype plugin indent on     " required!
 
