@@ -68,9 +68,9 @@ set nocompatible
 let g:Powerline_symbols = 'fancy'
 "}
 
-set ts=4
-set sw=4
-set sts=4
+set ts=2
+set sw=2
+set sts=2
 
 set hlsearch
 set expandtab
@@ -78,8 +78,6 @@ set autoindent
 set ic
 let Tlist_Use_Right_Window=1
 let g:indent_guides_guide_size=1
-:nnoremap <F8> :exe 'NERDTreeToggle'<CR>
-:nnoremap <F7> :exe 'TagbarOpen'<CR>
 "colo distinguished
 syntax enable
 set background=dark
@@ -87,11 +85,15 @@ colorscheme default
 let g:solarized_termcolors=256
 let g:airline_theme='wombat'
 
+:nnoremap <F8> :exe 'NERDTreeToggle'<CR>
+:nnoremap <F7> :exe 'TagbarOpen'<CR>
 set pastetoggle=<F9>
+set relativenumber
+autocmd FileType vue syntax sync fromstart
 
-autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade,*.html,*.css,*.js set ts=2
-autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade,*.html,*.css,*.js set sw=2
-autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade,*.html,*.css,*.js set sts=2
+" autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade,*.html,*.css,*.js set ts=2
+" autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade,*.html,*.css,*.js set sw=2
+" autocmd BufRead,BufNewFile *.coffee,*.sass,*.scss,*.jade,*.html,*.css,*.js set sts=2
 au BufReadPost *.wxml set syntax=html
 
 let NERDTreeIgnore = ['\.pyc$']
