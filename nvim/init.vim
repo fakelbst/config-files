@@ -1,4 +1,8 @@
 set nu
+set ts=2
+set sw=2
+set sts=2
+set expandtab
 
 call plug#begin('~/.vim/plugged')
 " On-demand loading
@@ -75,3 +79,4 @@ let g:tagbar_type_typescript = {
   \ 'sort' : 0
 \ }
 
+au BufNewFile,BufRead *.tsx set filetype=typescript
