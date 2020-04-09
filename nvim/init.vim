@@ -3,6 +3,7 @@ set ts=2
 set sw=2
 set sts=2
 set expandtab
+set ignorecase
 
 call plug#begin('~/.vim/plugged')
 " On-demand loading
@@ -16,6 +17,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'drewtempelmeyer/palenight.vim'
 
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive' " git tool
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
