@@ -17,11 +17,12 @@ Plug 'vim-airline/vim-airline'
 Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'drewtempelmeyer/palenight.vim'
 
+Plug 'mattn/emmet-vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive' " git tool
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
+Plug 'tpope/vim-surround', { 'for': 'typescript' }
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/AutoComplPop'
 
@@ -82,4 +83,5 @@ let g:tagbar_type_typescript = {
   \ 'sort' : 0
 \ }
 
-au BufNewFile,BufRead *.tsx set filetype=typescript
+autocmd BufNewFile,BufRead *.tsx set filetype=typescript
+autocmd VimEnter * NERDTree
