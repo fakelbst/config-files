@@ -10,6 +10,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 Plug 'leafgarland/typescript-vim'
+" Plug 'ianks/vim-tsx'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'Quramy/tsuquyomi'
 Plug 'dart-lang/dart-vim-plugin'
 
 Plug 'vim-airline/vim-airline'
@@ -18,15 +22,19 @@ Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'drewtempelmeyer/palenight.vim'
 
 Plug 'mattn/emmet-vim'
+Plug 'groenewege/vim-less'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive' " git tool
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround', { 'for': 'typescript' }
+Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/AutoComplPop'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'rust-lang/rust.vim'
 
 Plug 'majutsushi/tagbar'
+
 call plug#end()
 
 set termguicolors
@@ -45,6 +53,16 @@ let g:airline_theme = "palenight"
 
 let g:ctrlp_map = '<c-p>' 
 let g:ctrlp_cmd = 'CtrlP'
+
+let g:coc_global_extensions = [
+  \ 'coc-tsserver'
+  \ ]
+
+let g:coc_user_config = {
+	\ 'suggest.autoTrigger': {
+      \ 'suggest.autoTrigger': 'none'
+	\ }
+\ }
 
 " For tagbar
 let g:tagbar_type_javascript = {
@@ -83,5 +101,8 @@ let g:tagbar_type_typescript = {
   \ 'sort' : 0
 \ }
 
-autocmd BufNewFile,BufRead *.tsx set filetype=typescript
+" autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
 autocmd VimEnter * NERDTree
+
+:nnoremap <F8> :exe 'NERDTreeToggle'<CR>
+:nnoremap <F7> :exe 'TagbarOpen'<CR>
