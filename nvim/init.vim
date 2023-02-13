@@ -15,6 +15,9 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'Quramy/tsuquyomi'
 Plug 'dart-lang/dart-vim-plugin'
+" Plug 'github/copilot.vim'
+Plug 'ziglang/zig.vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'vim-airline/vim-airline'
 " Themes
@@ -30,13 +33,16 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/AutoComplPop'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'rust-lang/rust.vim'
 
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'majutsushi/tagbar'
 
 call plug#end()
 
+set mouse=
 set termguicolors
 set background = "dark"
 syntax on
@@ -106,3 +112,6 @@ autocmd VimEnter * NERDTree
 
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
 :nnoremap <F7> :exe 'TagbarOpen'<CR>
+
+autocmd BufWritePre *.tsx,*.jsx,*.js,*.css PrettierAsync
+"
