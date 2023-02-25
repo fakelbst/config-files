@@ -22,6 +22,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'vim-airline/vim-airline'
 " Themes
 Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'drewtempelmeyer/palenight.vim'
 
 Plug 'mattn/emmet-vim'
