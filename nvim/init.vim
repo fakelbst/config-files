@@ -38,8 +38,11 @@ Plug 'rust-lang/rust.vim'
 
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+  \ 'for': ['javascript', 'typescript', 'typescriptreact', 'javascriptreact', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'majutsushi/tagbar'
+Plug 'Exafunction/codeium.vim'
+Plug 'posva/vim-vue'
+Plug 'evanleck/vim-svelte'
 
 call plug#end()
 
@@ -114,5 +117,4 @@ autocmd VimEnter * NERDTree
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
 :nnoremap <F7> :exe 'TagbarOpen'<CR>
 
-autocmd BufWritePre *.tsx,*.jsx,*.js,*.css PrettierAsync
-"
+autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.css,*.less,*.scss PrettierAsync
