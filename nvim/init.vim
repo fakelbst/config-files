@@ -43,6 +43,9 @@ Plug 'majutsushi/tagbar'
 Plug 'Exafunction/codeium.vim'
 Plug 'posva/vim-vue'
 Plug 'evanleck/vim-svelte'
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 call plug#end()
 
@@ -63,6 +66,7 @@ let g:airline_theme = "palenight"
 
 let g:ctrlp_map = '<c-p>' 
 let g:ctrlp_cmd = 'CtrlP'
+let g:prettier#autoformat_config_files = ['~/.prettierrc.js']
 
 let g:coc_global_extensions = [
   \ 'coc-tsserver'
@@ -117,4 +121,4 @@ autocmd VimEnter * NERDTree
 :nnoremap <F8> :exe 'NERDTreeToggle'<CR>
 :nnoremap <F7> :exe 'TagbarOpen'<CR>
 
-autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.css,*.less,*.scss PrettierAsync
+autocmd BufWritePre *.tsx,*.ts,*.jsx,*.js,*.css,*.less,*.scss,*.vue PrettierAsync
